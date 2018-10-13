@@ -14,7 +14,7 @@ namespace EPAM.CoreWorkshop.ReportHelper.Tests
         }
 
         [TestMethod]
-        [DataRow("Hello: my world", '_', "Hello_ my world")]
+        //[DataRow("Hello: my world", '_', "Hello_ my world")]
         [DataRow("Hello my %world", '_', "Hello my %world")]
         [DataRow("Hello my /world", '_', "Hello my _world")]
         public void NormalizeFileNameTest(string name, char repl, string expected)
