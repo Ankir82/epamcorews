@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.CoreWorkshop.ReportHelper", "EPAM.CoreWorkshop.ReportHelper\EPAM.CoreWorkshop.ReportHelper.csproj", "{AE04A712-A874-4802-BAE2-AA128422CDCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPAM.CoreWorkshop.ReportHelper", "EPAM.CoreWorkshop.ReportHelper\EPAM.CoreWorkshop.ReportHelper.csproj", "{AE04A712-A874-4802-BAE2-AA128422CDCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.CoreWorkshop.ReportHelper.Tests", "EPAM.CoreWorkshop.ReportHelper.Tests\EPAM.CoreWorkshop.ReportHelper.Tests.csproj", "{07D5CC41-69A5-4E5F-A4D4-32DF9DA53504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPAM.CoreWorkshop.ReportHelper.Tests", "EPAM.CoreWorkshop.ReportHelper.Tests\EPAM.CoreWorkshop.ReportHelper.Tests.csproj", "{07D5CC41-69A5-4E5F-A4D4-32DF9DA53504}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.CoreWorkshop.TestConsoleApp", "EPAM.CoreWorkshop.TestConsoleApp\EPAM.CoreWorkshop.TestConsoleApp.csproj", "{4F4AFFA1-E136-4F81-B273-074A90A4A2F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPAM.CoreWorkshop.TestConsoleApp", "EPAM.CoreWorkshop.TestConsoleApp\EPAM.CoreWorkshop.TestConsoleApp.csproj", "{4F4AFFA1-E136-4F81-B273-074A90A4A2F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AE04A712-A874-4802-BAE2-AA128422CDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +55,11 @@ Global
 		{4F4AFFA1-E136-4F81-B273-074A90A4A2F4}.Release|x64.Build.0 = Release|Any CPU
 		{4F4AFFA1-E136-4F81-B273-074A90A4A2F4}.Release|x86.ActiveCfg = Release|Any CPU
 		{4F4AFFA1-E136-4F81-B273-074A90A4A2F4}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {823BEAB6-8A63-417B-AA63-2E41DBB7D9B8}
 	EndGlobalSection
 EndGlobal
